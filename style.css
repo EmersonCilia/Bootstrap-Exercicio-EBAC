@@ -1,0 +1,59 @@
+:root{
+    --background-color: #606c38;
+    --text-color: #fefae0;
+    --primary-color: #283618;
+    --secondary-color: #fefae0;
+    --font-family: "prompt", sans-serif;
+}
+*{
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+header{
+    background-color: var(--primary-color);
+    color: var(--text-color) ;
+    position: sticky;
+    top: 0;
+    z-index: 3000;
+}
+.navbar-toggler{
+    background-color: var(--secondary-color);
+}
+.nav-link{
+    color: var(--secondary-color);
+}
+.navbar .nav-link.active {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.container{
+    background-color: var(--primary-color);
+    border-radius: 12px;
+}
+.btn.align-self-center{
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+.btn.align-self-center:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.btn{
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+.btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.card-body{
+    background-color: var(--secondary-color);
+}
+.card-text{
+    color: var(--background-color);
+}
